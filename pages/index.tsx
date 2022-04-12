@@ -1,6 +1,7 @@
 import { getProductsInCollection } from "../lib/shopify";
 import ProductList from "../components/ProductList";
 
+/* @ts-ignore */
 export default function Home({ products }) {
     console.log(products);
 
